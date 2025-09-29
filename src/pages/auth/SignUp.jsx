@@ -46,8 +46,7 @@ const SignUp = () => {
 						value={password}
 					/>
 				</label>
-
-				<Link to={'/login'}>If you have account?</Link>
+				<Link to={'/login'}>Already have an account </Link>
 				{!loading && <button>Signup</button>}
 				{loading && (
 					<button className={styles.disabled} disabled>

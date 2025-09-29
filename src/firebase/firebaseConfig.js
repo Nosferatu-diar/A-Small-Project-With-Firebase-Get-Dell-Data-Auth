@@ -12,10 +12,13 @@ const firebaseConfig = {
 
 export default firebaseConfig
 
-
 // Initialize
 const app = initializeApp(firebaseConfig)
 //db
 export const db = getFirestore(app)
 //autn
 export const auth = getAuth()
+
+// git remote add origin git@github.com:Nosferatu-diar/shop.cod.git
+// git branch -M main
+// git push -u origin main

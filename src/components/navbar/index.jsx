@@ -5,6 +5,7 @@ import styles from './navbar.module.css'
 const Navbar = () => {
 	const { user } = useGlobalContext()
 	const { signOutUser } = Signout()
+
 	return (
 		<header className={styles.header}>
 			<div className='container'>
