@@ -34,7 +34,7 @@ const Login = () => {
 						onChange={e => setPassword(e.target.value)}
 					/>
 				</label>
-				<Link to={'/signup'}>Create a new Account</Link>
+				<Link to={'/signup'}>If you don't have account </Link>
 				{!loading && <button>Login</button>}
 				{loading && (
 					<button className={styles.disabled} disabled>
